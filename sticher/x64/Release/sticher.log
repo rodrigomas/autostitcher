@@ -1,0 +1,32 @@
+﻿Build started 30/04/2013 23:18:54.
+     1>Project "C:\Users\Rodrigo\Documents\sticher\sticher\sticher\sticher.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\sticher.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"x64\Release\app.res" app.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rodrigo\Documents\sticher\sticher\x64\Release\sticher.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\lib\Release opencv_core244.lib opencv_features2d244.lib opencv_stitching244.lib opencv_videostab244.lib opencv_calib3d244.lib opencv_legacy244.lib opencv_ml244.lib opencv_nonfree244.lib opencv_objdetect244.lib opencv_highgui244.lib /ASSEMBLYRESOURCE:x64\Release\sticher.MainForm.resources /ASSEMBLYRESOURCE:x64\Release\sticher.ProgressDialog.resources /MANIFEST /ManifestFile:"x64\Release\sticher.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rodrigo\Documents\sticher\sticher\x64\Release\sticher.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X64 x64\Release\app.res
+         x64\Release\AssemblyInfo.obj
+         x64\Release\ProgressDialog.obj
+         x64\Release\stdafx.obj
+         x64\Release\sticher.obj
+         "x64\Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         sticher.vcxproj -> C:\Users\Rodrigo\Documents\sticher\sticher\x64\Release\sticher.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Rodrigo\Documents\sticher\sticher\x64\Release\sticher.exe;#1" /manifest x64\Release\sticher.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\sticher.unsuccessfulbuild".
+         Touching "x64\Release\sticher.lastbuildstate".
+     1>Done Building Project "C:\Users\Rodrigo\Documents\sticher\sticher\sticher\sticher.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71

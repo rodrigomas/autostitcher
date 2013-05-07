@@ -1,0 +1,27 @@
+﻿Build started 30/04/2013 20:19:46.
+     1>Project "C:\Users\Rodrigo\Documents\sticher\sticher\sticher\sticher.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\sticher.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       CoreResGen:
+         "c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile MainForm.resX,Debug\sticher.MainForm.resources
+         Processing resource file "MainForm.resX" into "Debug\sticher.MainForm.resources".
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rodrigo\Documents\sticher\sticher\Debug\sticher.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\lib\Release opencv_core244.lib opencv_features2d244.lib opencv_perf_stitching.lib opencv_perf_video.lib opencv_stitching244.lib opencv_videostab244.lib /ASSEMBLYRESOURCE:Debug\sticher.MainForm.resources /MANIFEST /ManifestFile:"Debug\sticher.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rodrigo\Documents\sticher\sticher\Debug\sticher.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\stdafx.obj
+         Debug\sticher.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+     1>LINK : fatal error LNK1104: cannot open file 'opencv_perf_stitching.lib'
+     1>Done Building Project "C:\Users\Rodrigo\Documents\sticher\sticher\sticher\sticher.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.70
